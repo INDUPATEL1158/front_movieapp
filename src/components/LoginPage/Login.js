@@ -25,7 +25,7 @@ const Login = () => {
           console.log(response.data);
           // Handle success response here
           // Redirect to the addData page
-          if(loginId=='admin'){
+          if(loginId==='admin'){
           window.location.href = 'AddData';}
           else
           {
