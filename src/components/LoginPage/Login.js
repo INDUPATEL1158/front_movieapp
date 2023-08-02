@@ -20,7 +20,7 @@ const Login = () => {
     const { loginId, password } = credentials;
     if (loginId) {
       axios
-        .post('http://localhost:8080/login', null, { params: { loginId, password } })
+        .post('http://localhost:8081/login', null, { params: { loginId, password } })
         .then((response) => {
           console.log(response.data);
           // Handle success response here
